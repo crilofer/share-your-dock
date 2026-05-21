@@ -49,6 +49,39 @@ function XIcon({ className }: { className?: string }) {
   );
 }
 
+/**
+ * Renders the two social affordances (GitHub repo + X profile). Extracted
+ * so we can place them in two locations: centered in the header at sm+,
+ * and inline next to the dock counter on narrow viewports where the
+ * absolute-centered version would overlap the brand mark.
+ */
+function SocialLinks() {
+  return (
+    <>
+      <a
+        href={REPO_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View source on GitHub"
+        title="View source on GitHub"
+        className="pointer-events-auto inline-flex size-7 items-center justify-center rounded-md text-white/45 transition-colors hover:bg-white/[0.06] hover:text-white/85"
+      >
+        <GithubIcon className="size-[15px]" />
+      </a>
+      <a
+        href={X_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Follow @crilofer on X"
+        title="Follow @crilofer on X"
+        className="pointer-events-auto inline-flex size-7 items-center justify-center rounded-md text-white/45 transition-colors hover:bg-white/[0.06] hover:text-white/85"
+      >
+        <XIcon className="size-[13px]" />
+      </a>
+    </>
+  );
+}
+
 const MOBILE_NOTICE_STORAGE_KEY = "syd:mobile-notice-dismissed";
 
 /**
@@ -165,36 +198,19 @@ export default function HomePage() {
             <PanelLeft className="size-[18px]" />
           </button>
           <BrandMark className="size-7" />
-          <div>
+          {/* Wordmark hidden on phones so the centered social links have
+              breathing room. The brand mark alone is enough id at that size. */}
+          <div className="hidden sm:block">
             <h1 className="text-balance text-sm font-semibold text-white">
               Share Your Dock
             </h1>
-            <p className="hidden text-pretty text-[11px] text-white/45 sm:block">
+            <p className="text-pretty text-[11px] text-white/45">
               Build a fictional dock & share it anywhere.
             </p>
           </div>
         </div>
-        <div className="pointer-events-none absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-1 sm:flex">
-          <a
-            href={REPO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="View source on GitHub"
-            title="View source on GitHub"
-            className="pointer-events-auto inline-flex size-7 items-center justify-center rounded-md text-white/45 transition-colors hover:bg-white/[0.06] hover:text-white/85"
-          >
-            <GithubIcon className="size-[15px]" />
-          </a>
-          <a
-            href={X_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow @crilofer on X"
-            title="Follow @crilofer on X"
-            className="pointer-events-auto inline-flex size-7 items-center justify-center rounded-md text-white/45 transition-colors hover:bg-white/[0.06] hover:text-white/85"
-          >
-            <XIcon className="size-[13px]" />
-          </a>
+        <div className="pointer-events-none absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-1">
+          <SocialLinks />
         </div>
         <div className="flex items-center gap-4 text-xs text-white/55 tabular-nums">
           <span aria-live="polite" className="hidden sm:inline">
