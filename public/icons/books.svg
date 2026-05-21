@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<defs>
+  <linearGradient id="booksBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffa948"/>
+    <stop offset="1" stop-color="#d36016"/>
+  </linearGradient>
+</defs>
+<rect width="100" height="100" rx="22" fill="url(#booksBg)"/>
+<g fill="#fff">
+  <rect x="24" y="24" width="20" height="52" rx="3"/>
+  <rect x="48" y="34" width="18" height="42" rx="3"/>
+  <rect x="70" y="28" width="10" height="48" rx="2"/>
+</g>
+</svg>

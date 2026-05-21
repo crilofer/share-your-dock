@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<rect width="100" height="100" rx="22" fill="#1d1d1d"/>
+<rect x="14" y="22" width="72" height="56" rx="6" fill="#fff"/>
+<text x="22" y="58" font-family="Menlo, Courier, monospace" font-size="22" fill="#1d1d1d">&gt;_</text>
+</svg>

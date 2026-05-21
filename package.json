@@ -1,0 +1,69 @@
+{
+  "name": "share-your-dock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build a fictional macOS dock with the apps you wish you had, then export it as a clean PNG. Fully client-side, no backend. Windows and Linux skins on the roadmap.",
+  "license": "MIT",
+  "author": {
+    "name": "crilofer",
+    "url": "https://github.com/crilofer"
+  },
+  "homepage": "https://github.com/crilofer/share-your-dock#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crilofer/share-your-dock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crilofer/share-your-dock/issues"
+  },
+  "keywords": [
+    "dock",
+    "macos",
+    "windows",
+    "linux",
+    "desktop",
+    "icons",
+    "screenshot",
+    "share",
+    "mockup",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "dnd-kit"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "fetch-icons": "node scripts/fetch-bundled-icons.mjs",
+    "gen-wallpapers": "node scripts/generate-wallpapers.mjs"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^1.16.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.6.0",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

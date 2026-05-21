@@ -1,0 +1,262 @@
+{
+  "generatedAt": "2026-05-21T11:49:21.948Z",
+  "icons": [
+    {
+      "id": "appstore",
+      "name": "App Store",
+      "file": "appstore.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "file": "books.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "file": "calculator.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "file": "calendar.svg",
+      "tags": [
+        "macos",
+        "system",
+        "productivity"
+      ]
+    },
+    {
+      "id": "contacts",
+      "name": "Contacts",
+      "file": "contacts.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "facetime",
+      "name": "FaceTime",
+      "file": "facetime.svg",
+      "tags": [
+        "macos",
+        "video",
+        "system"
+      ]
+    },
+    {
+      "id": "finder",
+      "name": "Finder",
+      "file": "finder.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "launchpad",
+      "name": "Launchpad",
+      "file": "launchpad.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "mail",
+      "name": "Mail",
+      "file": "mail.svg",
+      "tags": [
+        "macos",
+        "email",
+        "system"
+      ]
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "file": "maps.svg",
+      "tags": [
+        "macos",
+        "navigation",
+        "system"
+      ]
+    },
+    {
+      "id": "messages",
+      "name": "Messages",
+      "file": "messages.svg",
+      "tags": [
+        "macos",
+        "chat",
+        "system"
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "file": "music.svg",
+      "tags": [
+        "macos",
+        "music",
+        "system"
+      ]
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "file": "news.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "file": "notes.svg",
+      "tags": [
+        "macos",
+        "system",
+        "productivity"
+      ]
+    },
+    {
+      "id": "photos",
+      "name": "Photos",
+      "file": "photos.svg",
+      "tags": [
+        "macos",
+        "photo",
+        "system"
+      ]
+    },
+    {
+      "id": "podcasts",
+      "name": "Podcasts",
+      "file": "podcasts.svg",
+      "tags": [
+        "macos",
+        "audio",
+        "system"
+      ]
+    },
+    {
+      "id": "preview",
+      "name": "Preview",
+      "file": "preview.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "reminders",
+      "name": "Reminders",
+      "file": "reminders.svg",
+      "tags": [
+        "macos",
+        "system",
+        "productivity"
+      ]
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "file": "safari.svg",
+      "tags": [
+        "macos",
+        "browser",
+        "system"
+      ]
+    },
+    {
+      "id": "shortcuts",
+      "name": "Shortcuts",
+      "file": "shortcuts.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "stocks",
+      "name": "Stocks",
+      "file": "stocks.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "settings",
+      "name": "System Settings",
+      "file": "settings.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "file": "terminal.svg",
+      "tags": [
+        "macos",
+        "shell",
+        "system"
+      ]
+    },
+    {
+      "id": "trash",
+      "name": "Trash",
+      "file": "trash.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "tv",
+      "name": "TV",
+      "file": "tv.svg",
+      "tags": [
+        "macos",
+        "video",
+        "system"
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "file": "weather.svg",
+      "tags": [
+        "macos",
+        "system"
+      ]
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode",
+      "file": "xcode.svg",
+      "tags": [
+        "macos",
+        "code",
+        "apple"
+      ]
+    }
+  ]
+}
